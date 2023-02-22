@@ -10,12 +10,33 @@ body {
   line-height: 1.5;
 }
 
+.container {
+  width: 60vw;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.hero-container {
+  height: 60vh;
+  padding-top: 20vh;
+  padding-bottom: 5vh;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
 h1 {
   color: navy;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 25pt;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 h2 {
@@ -33,11 +54,6 @@ a:hover {
   color: blue;
 }
 
-.container {
-  width: 60vw;
-  margin: 0 auto;
-  padding-top: 40px;
-}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
